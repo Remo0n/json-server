@@ -1,9 +1,293 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "countries": {
+    "StatusCode": "200",
+    "Message": "Success",
+    "Results": [
+      {
+        "Id": 1,
+        "IconURL": "https://www.worldometers.info/img/flags/as-flag.gif",
+        "Name": "Austria"
+      },
+      {
+        "Id": 2,
+        "IconURL": "https://www.worldometers.info/img/flags/sp-flag.gif",
+        "Name": "Spain"
+      },
+      {
+        "Id": 3,
+        "IconURL": "https://www.worldometers.info/img/flags/gm-flag.gif",
+        "Name": "Germany"
+      },
+      {
+        "Id": 4,
+        "IconURL": "https://www.worldometers.info/img/flags/po-flag.gif",
+        "Name": "Portugal"
+      },
+      {
+        "Id": 5,
+        "IconURL": "https://www.worldometers.info/img/flags/ro-flag.gif",
+        "Name": "Romania"
+      },
+      {
+        "Id": 6,
+        "IconURL": "https://www.worldometers.info/img/flags/hr-flag.gif",
+        "Name": "Croatia"
+      },
+      {
+        "Id": 7,
+        "IconURL": "https://www.worldometers.info/img/flags/be-flag.gif",
+        "Name": "Belgium"
+      },
+      {
+        "Id": 8,
+        "IconURL": "https://www.worldometers.info/img/flags/fr-flag.gif",
+        "Name": "France"
+      },
+      {
+        "Id": 9,
+        "IconURL": "https://www.worldometers.info/img/flags/fi-flag.gif",
+        "Name": "Finland"
+      },
+      {
+        "Id": 10,
+        "IconURL": "https://www.worldometers.info/img/flags/ic-flag.gif",
+        "Name": "Iceland"
+      },
+      {
+        "Id": 11,
+        "IconURL": "https://www.worldometers.info/img/flags/ja-flag.gif",
+        "Name": "Japan"
+      },
+      {
+        "Id": 12,
+        "IconURL": "https://www.worldometers.info/img/flags/po-flag.gif",
+        "Name": "Portugal"
+      },
+      {
+        "Id": 13,
+        "IconURL": "https://www.worldometers.info/img/flags/ro-flag.gif",
+        "Name": "Romania"
+      },
+      {
+        "Id": 14,
+        "IconURL": "https://www.worldometers.info/img/flags/us-flag.gif",
+        "Name": "United States"
+      },
+      {
+        "Id": 10,
+        "IconURL": "https://www.worldometers.info/img/flags/ic-flag.gif",
+        "Name": "Iceland"
+      },
+      {
+        "Id": 11,
+        "IconURL": "https://www.worldometers.info/img/flags/ja-flag.gif",
+        "Name": "Japan"
+      },
+      {
+        "Id": 12,
+        "IconURL": "https://www.worldometers.info/img/flags/po-flag.gif",
+        "Name": "Portugal"
+      },
+      {
+        "Id": 13,
+        "IconURL": "https://www.worldometers.info/img/flags/ro-flag.gif",
+        "Name": "Romania"
+      },
+      {
+        "Id": 14,
+        "IconURL": "https://www.worldometers.info/img/flags/us-flag.gif",
+        "Name": "United States"
+      }
+    ]
+  },
+  "events": {
+    "StatusCode": "200",
+    "Message": "Success",
+    "Results": [
+      {
+        "Id": 1,
+        "EventStart": "1698793200",
+        "EevntEnd": "1698872400",
+        "Countries": [
+          {
+            "Name": "Alexandria",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793600",
+            "end": "1698794400",
+            "flagUrl": "https://www.worldometers.info/img/flags/eg-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 1,
+        "EventStart": "1698793200",
+        "EevntEnd": "1698872400",
+        "Countries": [
+          {
+            "Name": "Spain",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793250",
+            "end": "1698793280",
+            "flagUrl": "https://www.worldometers.info/img/flags/sp-flag.gif"
+          },
+          {
+            "Name": "England",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793350",
+            "end": "1698793380",
+            "flagUrl": "https://www.worldometers.info/img/flags/uk-flag.gif"
+          },
+          {
+            "Name": "Germany",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793255",
+            "end": "1698793286",
+            "flagUrl": "https://www.worldometers.info/img/flags/gm-flag.gif"
+          },
+          {
+            "Name": "Colombia",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793350",
+            "end": "1698793380",
+            "flagUrl": "https://www.worldometers.info/img/flags/co-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "EventStart": "1699106400",
+        "EevntEnd": "1699138740",
+        "Countries": [
+          {
+            "Name": "Austria",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699106400",
+            "end": "1699138740",
+            "flagUrl": "https://www.worldometers.info/img/flags/au-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "EventStart": "1699238800",
+        "EevntEnd": "1699228000",
+        "Countries": [
+          {
+            "Name": "Italy",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699238800",
+            "end": "1699228000",
+            "flagUrl": "https://www.worldometers.info/img/flags/it-flag.gif"
+          },
+          {
+            "Name": "Germany",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699238810",
+            "end": "1699228080",
+            "flagUrl": "https://www.worldometers.info/img/flags/gm-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 1,
+        "EventStart": "1698793200",
+        "EevntEnd": "1698872400",
+        "Countries": [
+          {
+            "Name": "Alexandria",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1701666763",
+            "end": "1701839563",
+            "flagUrl": "https://www.worldometers.info/img/flags/eg-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 1,
+        "EventStart": "1702195963",
+        "EevntEnd": "1702221347",
+        "Countries": [
+          {
+            "Name": "Spain",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793250",
+            "end": "1698793280",
+            "flagUrl": "https://www.worldometers.info/img/flags/sp-flag.gif"
+          },
+          {
+            "Name": "England",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793350",
+            "end": "1698793380",
+            "flagUrl": "https://www.worldometers.info/img/flags/uk-flag.gif"
+          },
+          {
+            "Name": "Germany",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793255",
+            "end": "1698793286",
+            "flagUrl": "https://www.worldometers.info/img/flags/gm-flag.gif"
+          },
+          {
+            "Name": "Colombia",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1698793350",
+            "end": "1698793380",
+            "flagUrl": "https://www.worldometers.info/img/flags/co-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "EventStart": "1702480547",
+        "EevntEnd": "1702739747",
+        "Countries": [
+          {
+            "Name": "Austria",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699106400",
+            "end": "1699138740",
+            "flagUrl": "https://www.worldometers.info/img/flags/au-flag.gif"
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "EventStart": "1699238800",
+        "EevntEnd": "1699228000",
+        "Countries": [
+          {
+            "Name": "Italy",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699238800",
+            "end": "1699228000",
+            "flagUrl": "https://www.worldometers.info/img/flags/it-flag.gif"
+          },
+          {
+            "Name": "Germany",
+            "categoria": "Trucks\u003e7,5 Tn and trucks with trailers",
+            "description": "*** The information service below about traffic bans should only be used as a source of auxiliary information. \r\nThis implies that Guretruck is not responsible for the consequences of decisions made on the basis of information provided on the website ***\r\n\r\n\r\nOnly in the federal states of Baden-Württemberg, Bavaria, North Rhine-Westphalia, Rhineland-Palatinate and Saarland. ",
+            "start": "1699238810",
+            "end": "1699228080",
+            "flagUrl": "https://www.worldometers.info/img/flags/gm-flag.gif"
+          }
+        ]
+      }
+    ]
+  }
 }
